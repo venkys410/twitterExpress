@@ -1,0 +1,22 @@
+POST http://localhost:3000/register/
+Content-Type: application/json
+
+{
+  "username": "venkys",
+  "password": "venkys410",
+  "name": "Venky",
+  "gender": "male"
+}
+
+###
+POST http://localhost:3000/login/ 
+Content-Type: application/json 
+
+{
+  "username":"JoeBiden",
+  "password":"biden@123"
+}
+
+###
+GET http://localhost:3000/user/tweets/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNjUyNTg1MDEwfQ.82OeYv4yktlKrkXf3wA6UkkIEnM1hwWhA82gKz4JSJY
